@@ -1,9 +1,30 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+.wrangler/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # OS files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Editor files
+# IDE files
 .vscode/
 .idea/
 *.swp
@@ -12,13 +33,4 @@ desktop.ini
 
 # Temporary files
 *.tmp
-*.log
 *.cache
-
-# Node modules (if you add any in the future)
-node_modules/
-package-lock.json
-
-# Build files
-dist/
-build/
