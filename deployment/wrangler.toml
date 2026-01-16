@@ -1,0 +1,23 @@
+name = "tools-hub"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Static assets configuration
+# This enables the ASSETS binding in the worker
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Environment variables (if needed)
+# [vars]
+# ENVIRONMENT = "production"
+
+# KV namespaces (if needed for dynamic content)
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "your-kv-namespace-id"
+
+# Note: Routes are configured via Cloudflare Dashboard or wrangler pages
+# For Workers with assets binding, routing is handled by the Worker code
+# Custom domains should be configured in the Cloudflare Dashboard
+

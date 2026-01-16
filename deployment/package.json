@@ -1,0 +1,22 @@
+{
+  "name": "tools-hub",
+  "version": "1.0.0",
+  "description": "Tools-Hub.net - Free Web Tools",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "pages:deploy": "wrangler pages deploy ./public",
+    "pages:dev": "wrangler pages dev ./public"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
